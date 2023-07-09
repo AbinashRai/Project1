@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  height: 88vh;
+  width: 83%;
+  margin: 0 auto 0 auto;
+}
+.container1 {
+  height: 100vh;
+  width: 83%;
+  margin: 0 auto 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+p {
+  color: #7d7987;
+}
+
+.header {
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto 0 auto;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.header a {
+  margin: 15px;
+}
+
+.header h1 a {
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.header h1 span {
+  background-color: #458ff6;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 15px;
+  color: white;
+}
+
+.flex {
+  width: 1/2;
+  display: flex;
+}
+
+.home1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto 0 auto;
+}
+
+.img1 img {
+  height: 550px;
+}
+
+.home1 div {
+  width: 62%;
+  margin: 0 auto 0 auto;
+}
+
+.home1 button {
+  background-color: #458ff6;
+  width: 200px;
+  height: 60px;
+  color: white;
+  border-radius: 55px;
+  font-size: 18px;
+  border: none;
+  font-family: "Mulish", sans-serif;
+}
+
+.home1 p {
+  padding: 10px 0 20px 0;
+  font-size: 18px;
+}
+
+.service {
+  text-align: center;
+  width: 80%;
+  margin: 1rem auto 0 auto;
+}
+
+.cards {
+  margin: 0 auto 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px 40px;
+  width: 90%;
+}
+
+.card1 {
+  height: 250px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0px 1px 0px rgba(0, 0, 0, 0.1), 0 1px 0px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  padding: 30px;
+}
+
+.card1 .card-content img {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+
+.container1 .btn {
+  background-color: white;
+  color: #458ff6;
+  border: 2px solid #458ff6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 .home1 h1 {
+  font-size: 35px;
+}
+
+.container1 .img1 img {
+  height: 500px;
+  margin: auto 0 auto 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 .btn span {
+  padding: 0 10px 0 0;
+}
